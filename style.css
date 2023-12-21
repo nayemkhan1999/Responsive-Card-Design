@@ -1,0 +1,156 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #7a7a7a;
+}
+
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 300px;
+  height: 500px;
+  margin: 20px 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 8px 8px 15px black;
+  background-color: aliceblue;
+}
+
+.card-img {
+  width: 100%;
+  height: 280px;
+}
+
+.img-body {
+  width: 255px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 14px;
+  border: 1px solid white;
+}
+.card-title1 {
+  font-size: 13px;
+  font-family: verdana;
+  font-weight: bold;
+  color: #b91a38;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -40px;
+  padding: 5px;
+}
+
+.card-title2 {
+  font-size: 13px;
+  font-family: verdana;
+  font-weight: bold;
+  color: #b91a38;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -35px;
+  padding-top: 10px;
+}
+
+.card-title3 {
+  font-size: 13px;
+  font-family: verdana;
+  font-weight: bold;
+  color: #b91a38;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -35px;
+  padding-top: 10px;
+}
+
+.card-title3 .and-size {
+  color: #d39c37;
+  font-size: 22px;
+  font-family: Gill Sans;
+}
+.card-title1 .and-size {
+  font-size: 22px;
+  color: #d39c37;
+  font-family: Gill Sans;
+}
+
+.card-body {
+  text-transform: lowercase;
+  text-align: justify;
+  line-height: 25px;
+  color: rgb(39, 39, 39);
+  margin-top: -15px;
+}
+
+.card-body .first-word {
+  color: #b91a38;
+  font-size: 26px;
+  font-family: "Gill Sans MT";
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.frame-work {
+  padding: 5px;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 10px #dddfff;
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    width: 245px;
+    height: 360px;
+    box-shadow: 8px 8px 15px black;
+  }
+  .card-img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .card-title1,
+  .card-title2,
+  .card-title3 {
+    font-size: 10px;
+    margin-top: -35px;
+    color: #b91a38;
+  }
+  .card-title .and-size {
+    font-size: 15px;
+    color: #d39c37;
+  }
+
+  .card-body {
+    font-size: 9px;
+    font-weight: bold;
+    padding: 2px;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+  }
+
+  .card-body .first-word {
+    font-size: 17px;
+    color: #b91a38;
+  }
+
+  .img-body {
+    width: 200px;
+    height: 200px;
+    margin: 10px 12px;
+  }
+  .card:hover {
+    box-shadow: 5px 5px 10px #dddfff;
+  }
+}
